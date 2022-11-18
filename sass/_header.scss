@@ -1,0 +1,288 @@
+.header {
+
+    &-container {
+        height: 113px;
+        margin: 0 auto;
+    }
+
+    &-top {
+        padding-top: 35px;
+        max-width: 1040px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    &-logo {
+        max-width: 187.6px;
+    }
+
+    &-logo-item {
+        margin-top: 5.6px;
+        height: 13.7px;
+        background-color: #095AAA;
+    }
+
+    &-logo-small {
+        padding-top: 2.23px;
+        padding-bottom: 2.67px;
+        padding-left: 21px;
+    }
+
+    &-tag {
+        display: flex;
+        align-items: center;
+        gap: 0 12px;
+    }
+
+    &-tag-style {
+        color: #454545;
+        line-height: 19px;
+        text-decoration: none;
+        border-radius: 32px;
+        background: #E6E6E6;
+        border: 1px none;
+        font-weight: 500;
+        height: 32px;
+        text-align: center;
+        padding: 6px 12px 5px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-tab {
+        display: none;
+    }
+
+}
+
+.nav-logo {
+    display: none;
+}
+
+.nav-heading {
+    display: none;
+}
+
+@media screen and (min-width: 668px) and (max-width: 1023px) {
+    .header {
+        width: 100%;
+        background-color: #095AAA;
+        height: 40px;
+
+        &-top {
+            padding: 0%;
+            margin-left: 16px;
+        }
+
+        &-tag {
+            display: none;
+        }
+
+        &-logo {
+            display: none;
+        }
+
+        &-tab {
+            display: block;
+        }
+    
+    }
+
+    .nav-logo {
+        display: block;
+        margin-left: 16px;
+    }
+
+    .small-logo {
+        width: 102px;
+        height: 7.1px;
+        background-color: #fff;
+    }
+
+    .small-item {
+        width: 79.63px;
+        height: 4.43px;
+        padding-bottom: 8px;
+        margin-left: 11px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .big-logo {
+        width: 102px;
+        height: 13px;
+    }
+
+    .nav-heading {
+        margin: auto;
+        display: flex;
+
+    }
+
+    .nav-tab{
+        display: flex;
+        padding-top: 9px;
+    }
+
+    .nav-search{
+        border-right: 1px solid #fff;
+        padding-right: 16px;
+    }
+
+    .tab-list{
+        padding-left: 16px;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .header {
+        width: 100%;
+        background-color: #095AAA;
+        height: 40px;
+
+        &-top {
+            padding: 0%;
+            margin-left: 16px;
+        }
+
+        &-tag {
+            display: none;
+        }
+
+        &-logo {
+            display: none;
+        }
+
+        &-tab {
+            display: block;
+        }
+    
+    }
+
+    .nav-logo {
+        display: block;
+        margin-left: 16px;
+    }
+
+    .small-logo {
+        width: 102px;
+        height: 7.1px;
+        background-color: #fff;
+    }
+
+    .small-item {
+        width: 79.63px;
+        height: 4.43px;
+        padding-bottom: 8px;
+        margin-left: 11px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .big-logo {
+        width: 102px;
+        height: 13px;
+    }
+
+    .nav-heading {
+        margin: auto;
+        display: flex;
+
+    }
+
+    .nav-tab{
+        display: flex;
+        padding-top: 9px;
+    }
+
+    .nav-search{
+        border-right: 1px solid #fff;
+        padding-right: 16px;
+    }
+
+    .tab-list{
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 374px)  {
+    .header {
+        width: 100%;
+        background-color: #095AAA;
+        height: 40px;
+
+        &-top {
+            padding: 0%;
+            margin-left: 16px;
+        }
+
+        &-tag {
+            display: none;
+        }
+
+        &-logo {
+            display: none;
+        }
+
+        &-tab {
+            display: block;
+        }
+    
+    }
+
+    .nav-logo {
+        display: block;
+        margin-left: 16px;
+    }
+
+    .small-logo {
+        width: 102px;
+        height: 7.1px;
+        background-color: #fff;
+    }
+
+    .small-item {
+        width: 79.63px;
+        height: 4.43px;
+        padding-bottom: 8px;
+        margin-left: 11px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .big-logo {
+        width: 102px;
+        height: 13px;
+    }
+
+    .nav-heading {
+        margin: auto;
+        display: flex;
+
+    }
+
+    .nav-tab{
+        display: flex;
+        padding-top: 9px;
+    }
+
+    .nav-search{
+        border-right: 1px solid #fff;
+        padding-right: 16px;
+    }
+
+    .tab-list{
+        padding-left: 16px;
+    }
+}

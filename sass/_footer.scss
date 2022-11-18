@@ -1,0 +1,437 @@
+.footer {
+    background-color: $heading-color;
+    height: 207px;
+
+    &-container {
+        margin-top: 66px;
+    }
+
+    &-heading {
+        width: 100%;
+        height: 40px;
+        margin: auto;
+        border-bottom: 1px solid #E6E6E6;
+    }
+
+    &-menu {
+        width: 1040px;
+        margin: auto;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0 25px;
+        text-transform: uppercase;
+        line-height: 40px;
+        margin: auto;
+        padding-left: 0px;
+    }
+
+    &-item {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        text-decoration: none;
+        /* identical to box height, or 136% */
+
+        text-transform: uppercase;
+
+        /* Grey 300 */
+
+        color: #E6E6E6;
+    }
+
+    &-content {
+        width: 1040px;
+        height: 167px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    &-logo-small {
+        background-color: #fff;
+    }
+
+    &-logo-small-item {
+        padding-top: 1.6px;
+        padding-bottom: 2.03px;
+        padding-left: 16px;
+    }
+
+    &-logo {
+        margin-top: 34px;
+    }
+
+    &-address {
+        width: 420px;
+        height: 121px;
+        margin-top: 10px;
+        border-right: 1px solid #E6E6E6;
+        margin-left: 57px;
+    }
+
+    &-editor {
+        /* Text footer */
+        margin-top: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+        /* or 185% */
+
+
+        /* Grey 300 */
+
+        color: #E6E6E6;
+        width: 395px;
+        height: 72px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 24px;
+        /* or 185% */
+
+
+        /* Grey 300 */
+
+        color: #E6E6E6;
+    }
+
+    &-address-item {
+        width: 395px;
+        height: 72px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 11px;
+        color: #E6E6E6;
+    }
+
+    &-logo-big-tab {
+        display: none;
+    }
+
+    &-logo-small-item-tab {
+        display: none;
+    }
+
+    &-tab {
+        display: none;
+    }
+}
+
+h3 {
+    /* Title box - T1 */
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 668px) and (max-width: 1023px) {
+    .footer {
+        width: 100%;
+        height: auto;
+        background-color: #E7E8EC;
+        padding-bottom: 25px;
+
+        &-container {
+            display: none;
+        }
+
+        &-content {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 24px;
+        }
+
+        &-logo-big {
+            display: none;
+        }
+
+        &-logo-big-tab {
+            display: block;
+            width: 154px;
+            height: 19px;
+        }
+
+        &-logo-small {
+            width: 154px;
+            margin-top: 4.6px;
+            background-color: $heading-color;
+        }
+
+        &-logo-small-item {
+            display: none;
+        }
+
+        &-logo-small-item-tab {
+            display: block;
+        }
+
+        &-logo {
+            margin-top: 24px;
+            margin-left: 16px;
+        }
+
+        &-address {
+            width: 100%;
+            margin-left: 16px;
+        }
+
+        &-address-item {
+            color: #666666;
+        }
+
+        &-editor {
+            width: 94%;
+            margin-left: 16px;
+            color: #666666;
+        }
+
+        &-tab {
+            height: 40px;
+            display: block;
+        }
+    }
+
+    h3 {
+        color: #333333;
+    }
+
+    .tab-menu {
+        display: flex;
+        margin: 4px 0px;
+        gap: 0 30px;
+        padding-left: 0;
+        justify-content: space-between;
+    }
+
+    .tab-menu-item {
+        line-height: 30px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-tab-link {
+        text-decoration: none;
+    }
+
+    .tab-menu-img {
+        margin: auto;
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .footer {
+        width: 100%;
+        height: 328px;
+        background-color: #E7E8EC;
+        padding-bottom: 25px;
+
+        &-container {
+            display: none;
+        }
+
+        &-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 24px;
+        }
+
+        &-logo-big {
+            display: none;
+        }
+
+        &-logo-big-tab {
+            display: block;
+            width: 154px;
+            height: 19px;
+        }
+
+        &-logo-small {
+            width: 154px;
+            margin-top: 4.6px;
+            background-color: $heading-color;
+        }
+
+        &-logo-small-item {
+            display: none;
+        }
+
+        &-logo-small-item-tab {
+            display: block;
+        }
+
+        &-logo {
+            margin-top: 24px;
+            margin-left: 16px;
+        }
+
+        &-address {
+            width: 100%;
+            margin-left: 16px;
+        }
+
+        &-address-item {
+            color: #666666;
+        }
+
+        &-editor {
+            width: 94%;
+            margin-left: 16px;
+            color: #666666;
+        }
+
+        &-tab {
+            height: 40px;
+            display: block;
+        }
+    }
+
+    h3 {
+        color: #333333;
+    }
+
+    .tab-menu {
+        display: flex;
+        margin: 4px 0px;
+        gap: 0 30px;
+        padding-left: 0;
+        justify-content: space-between;
+    }
+
+    .tab-menu-item {
+        line-height: 30px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-tab-link {
+        text-decoration: none;
+    }
+
+    .tab-menu-img {
+        margin: auto;
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 375px)  {
+        .footer {
+            width: 100%;
+            height: 328px;
+            background-color: #E7E8EC;
+            padding-bottom: 25px;
+    
+            &-container {
+                display: none;
+            }
+    
+            &-content {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-top: 24px;
+            }
+    
+            &-logo-big {
+                display: none;
+            }
+    
+            &-logo-big-tab {
+                display: block;
+                width: 154px;
+                height: 19px;
+            }
+    
+            &-logo-small {
+                width: 154px;
+                margin-top: 4.6px;
+                background-color: $heading-color;
+            }
+    
+            &-logo-small-item {
+                display: none;
+            }
+    
+            &-logo-small-item-tab {
+                display: block;
+            }
+    
+            &-logo {
+                margin-top: 24px;
+                margin-left: 16px;
+            }
+    
+            &-address {
+                width: 100%;
+                margin-left: 16px;
+            }
+    
+            &-address-item {
+                color: #666666;
+            }
+    
+            &-editor {
+                width: 94%;
+                margin-left: 16px;
+                color: #666666;
+            }
+    
+            &-tab {
+                height: 40px;
+                display: block;
+            }
+        }
+    
+        h3 {
+            color: #333333;
+        }
+    
+        .tab-menu {
+            display: flex;
+            margin: 4px 0px;
+            gap: 0 30px;
+            padding-left: 0;
+            justify-content: space-between;
+        }
+    
+        .tab-menu-item {
+            line-height: 30px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .menu-tab-link {
+            text-decoration: none;
+        }
+    
+        .tab-menu-img {
+            margin: auto;
+            width: 16px;
+            height: 16px;
+        }
+
+}

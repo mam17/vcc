@@ -1,0 +1,368 @@
+.intro {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+
+    &-container {
+        width: 710px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &-content {
+        width: 710px;
+    }
+
+    &-item {
+        margin-top: 24px;
+        width: 710px;
+        height: 187px;
+        top: 736px;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction: column;
+        border-bottom: 1px solid #E6E6E6;
+    }
+
+    &-null {
+        width: 300px;
+        left: 1180px;
+        top: 736px;
+
+        /* Grey 300 */
+
+        background: #E6E6E6;
+    }
+
+    &-btn {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 24px;
+    }
+
+    &-bor {
+        margin-top: 32px;
+        margin-left: 440px;
+        width: 1040px;
+        /* Gray 4 */
+
+        border: 1px dashed #BDBDBD;
+    }
+
+    &-btn-primary {
+        width: 102px;
+        height: 32px;
+        background: #147ADE;
+        border-radius: 4px;
+        text-decoration: none;
+        line-height: 30px;
+        text-align: center;
+        border: none;
+        color: #ffff;
+    }
+
+}
+
+.item-title {
+    width: 430px;
+    height: 56px;
+
+    /* Heading 3 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* or 127% */
+
+
+    /* Grey 900 */
+
+    color: #121212;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.intro-item-content {
+
+    width: 430px;
+    height: 60px;
+
+    /* Sapo 1 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+
+    /* Grey 700 */
+
+    color: #454545;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+@media screen and (min-width: 668px) and (max-width: 1023px) {
+    .intro {
+        width: 100%;
+
+        &-container {
+            width: 100%;
+            display: flex;
+        }
+
+        &-item {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-content: center;
+            justify-content: center;
+            border-top: 12px solid #E7E8EC;
+            border-bottom: 0;
+            flex-wrap: nowrap;
+        }
+
+        &-img {
+            width: 96%;
+            margin-left: 16px;
+        }
+
+        &-content {
+            width: 100%;
+
+        }
+
+        &-null {
+            display: none;
+        }
+
+        &-item-content {
+            width: 93%;
+
+        }
+
+        &-right-title {
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            /* or 133% */
+
+
+            color: #272727;
+        }
+
+        &-btn {
+            width: 100%;
+            margin-top: 50px;
+            height: 80px;
+            background-color: #E7E8EC;
+        }
+
+        &-btn-primary {
+            margin: auto;
+        }
+
+        &-cate {
+            margin-left: 16px;
+        }
+    }
+
+    .item-title {
+        width: 93%;
+        font-size: 18px;
+        margin-left: 16px;
+    }
+
+    .intro-item-content {
+        font-size: 13px;
+        height: fit-content;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .intro {
+        width: 100%;
+
+        &-container {
+            width: 100%;
+            display: flex;
+        }
+
+        &-item {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-content: center;
+            justify-content: center;
+            border-top: 12px solid #E7E8EC;
+            border-bottom: 0;
+            flex-wrap: nowrap;
+        }
+
+        &-img {
+            width: 90%;
+            height: 215px;
+            margin-left: 16px;
+        }
+
+        &-content {
+            width: 100%;
+
+        }
+
+        &-null {
+            display: none;
+        }
+
+        &-item-content {
+            width: 93%;
+
+        }
+
+        &-right-title {
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            /* or 133% */
+
+
+            color: #272727;
+        }
+
+        &-btn {
+            width: 100%;
+            margin-top: 50px;
+            height: 80px;
+            background-color: #E7E8EC;
+        }
+
+        &-btn-primary {
+            margin: auto;
+        }
+
+        &-cate {
+            margin-left: 16px;
+        }
+    }
+
+    .item-title {
+        width: 93%;
+        font-size: 18px;
+        margin-left: 16px;
+    }
+
+    .intro-item-content {
+        font-size: 13px;
+        height: fit-content;
+        margin-left: 16px;
+    }
+}
+
+
+@media screen and (max-width: 374px) {
+    .intro {
+        width: 100%;
+
+        &-container {
+            width: 100%;
+            display: flex;
+        }
+
+        &-item {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-content: center;
+            justify-content: center;
+            border-top: 12px solid #E7E8EC;
+            border-bottom: 0;
+            flex-wrap: nowrap;
+        }
+
+        &-img {
+            width: 90%;
+            height: 215px;
+            margin-left: 16px;
+        }
+
+        &-content {
+            width: 100%;
+
+        }
+
+        &-null {
+            display: none;
+        }
+
+        &-item-content {
+            width: 93%;
+
+        }
+
+        &-right-title {
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            /* or 133% */
+
+
+            color: #272727;
+        }
+
+        &-btn {
+            width: 100%;
+            margin-top: 50px;
+            height: 80px;
+            background-color: #E7E8EC;
+        }
+
+        &-btn-primary {
+            margin: auto;
+        }
+
+        &-cate {
+            margin-left: 16px;
+        }
+    }
+
+    .item-title {
+        width: 93%;
+        font-size: 18px;
+        margin-left: 16px;
+    }
+
+    .intro-item-content {
+        font-size: 13px;
+        height: fit-content;
+        margin-left: 16px;
+    }
+}

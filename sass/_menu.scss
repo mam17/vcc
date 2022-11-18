@@ -1,0 +1,50 @@
+.menu {
+    height: 38px;
+    background-color: $heading-color;
+
+    &-container {
+        width: 1040px;
+        margin: auto;
+    }
+
+    &-ul {
+        display: flex;
+        align-items: center;
+        gap: 0 25px;
+        list-style: none;
+
+        line-height: 40px;
+        width: 100%;
+        justify-content: space-between;
+        position: relative;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    &-item {
+        float: left;
+        line-height: 19px;
+        text-transform: uppercase;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+    &-link {
+        text-decoration: none;
+        color: $text-menu;
+    }
+
+    &-search {
+        padding-right: 98px;
+    }
+}
+
+.menu-item:hover .menu-child{
+    opacity: 1;
+    visibility: visible;
+}
+
+@media screen and (max-width: 768px) and (max-width: 1023px) {
+}
